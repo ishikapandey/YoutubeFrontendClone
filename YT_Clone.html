@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: rgb(27, 27, 27);">
+    <!-- Start of Header -->
+    <div class="header">
+        <div class="head_left">
+            <i class="material-icons md-light" id="menu">menu</i>
+            <img src="img/youtube-logo.png" alt="youtube logo">
+        </div>
+        <div class="search">
+            <form action="">
+                <input type="text" placeholder="Search">
+                <button><i class="material-icons md-light displayThis">search</i></button>
+            </form>
+        </div>
+        <div class="header_icons">
+            <i class="material-icons md-light">video_call</i>
+            <i class="material-icons md-light">apps</i>
+            <i class="material-icons md-light">notifications</i>
+            <i class="material-icons md-light displayThis">account_circle</i>
+        </div>
+    </div>
+    <!-- End of Header -->
+    
+    <!-- Main Body -->
+    <div class="mainBody">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar_categories">
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">explore</i>
+                    <span>Explore</span>
+                </div>
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar_categories">
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">video_library</i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">history</i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">smart_display</i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">schedule</i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="sidebar_cat">
+                    <i class="material-icons md-light">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+            <hr>
+            <div class="subsriptions">
+                <h4>SUBSCRIPTIONS</h4>
+                <div class="subscribed">
+                    <img src="img/postMalone.jpg" alt="">
+                    <span>Post Malone</span>
+                </div>
+                <div class="subscribed">
+                    <img src="img/postMalone.jpg" alt="">
+                    <span>Post Malone</span>
+                </div>
+                <div class="subscribed">
+                    <img src="img/postMalone.jpg" alt="">
+                    <span>Post Malone</span>
+                </div>
+                <div class="subscribed">
+                    <img src="img/postMalone.jpg" alt="">
+                    <span>Post Malone</span>
+                </div> 
+                <div class="subscribed">
+                    <img src="img/postMalone.jpg" alt="">
+                    <span>Post Malone</span>
+                </div> 
+                <div class="subscribed">
+                    <img src="img/postMalone.jpg" alt="">
+                    <span>Post Malone</span>
+                </div> 
+            </div>
+            <hr>
+            <div class="More">
+                <h4>MORE FROM YOUTUBE</h4>
+                <div class="moreItems">
+                    <i class="material-icons md-light">smart_display</i>
+                    <span>Youtube Premium</span>
+                </div>
+                <div class="moreItems">
+                    <i class="material-icons md-light">theaters</i>
+                    <span>Movies</span>
+                </div>
+                <div class="moreItems">
+                    <i class="material-icons md-light">sports_esports</i>
+                    <span>Gaming</span>
+                </div>
+                <div class="moreItems">
+                    <i class="material-icons md-light">filter_center_focus</i>
+                    <span>Live</span>
+                </div>
+                <div class="moreItems">
+                    <i class="material-icons md-light">dry_cleaning</i>
+                    <span>Fashion & Beauty</span>
+                </div>
+                <div class="moreItems">
+                    <i class="material-icons md-light">lightbulb</i>
+                    <span>Learning</span>
+                </div>
+                <div class="moreItems">
+                    <i class="material-icons md-light">emoji_events</i>
+                    <span>Sports</span>
+                </div>
+            </div><hr>
+            <div class="others">
+                <div class="others-items">
+                    <i class="material-icons md-light">settings</i>
+                    <span>Settings</span>
+                </div>
+                <div class="others-items">
+                    <i class="material-icons md-light">outlined_flag</i>
+                    <span>Report History</span>
+                </div>
+                <div class="others-items">
+                    <i class="material-icons md-light">help_outline</i>
+                    <span>Help</span>
+                </div>
+                <div class="others-items">
+                    <i class="material-icons md-light">feedback</i>
+                    <span>Send Feedback</span>
+                </div>
+            </div>
+            <hr>
+            <div class="extra">
+                <div class="terms">
+                    <h5>About Press Copyright</h5>
+                    <h5>Contact Us Creators</h5>
+                    <h5>Advertise Developers</h5>
+                </div>
+                <br>
+                <div class="terms">
+                    <h5>Terms Privacy Policy & Safety</h5>
+                    <h5>How Youtube works</h5>
+                    <h5>Test new features</h5>
+                </div>
+                <div class="mark">
+                    <p>© 2021 Google LLC</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Videos -->
+        <div class="videos">
+            <hr>
+            <div class="owl-carousel owl-theme" style="background-color: rgb(34,34,34); padding: 10px;">
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">All</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Music</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Comedy</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Artist</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor: pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Gaming</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Cooking</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Football</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Sports</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Podcasts</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Pop Music</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Drums</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Guitar</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Hip Hop</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">R&B</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Films</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Painting</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Dance</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Classical</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Cloud</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Azure</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Tech</button>
+                </div>
+                <div class="item">
+                    <button class="button" style="color:white; padding:5px; padding-right:15px;cursor:pointer; padding-left:15px; margin: 0px; margin-bottom: 0px; margin-right: 0px; background-color: rgb(71,71,71); border: none; border-color: gray; border-radius: 50px;">Microsoft</button>
+                </div>
+                
+            </div><hr>
+            <br>
+        
+            <div class="videosContainer">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="img/thumbnail2.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="creator">
+                            <img src="img/postMalone.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Post Malone - Circles</h3>
+                            <a href="">Post Malone</a>
+                            <span>403M • 2 years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script text="text/javascript">
+        $('.owl-carousel').owlCarousel({
+        loop:false,
+        margin:0,
+        nav:false,
+        dots:false,
+        padding:0,
+        stagePadding: 30,
+        responsive:{
+            0:{
+                items:3
+            },
+            
+            600:{
+                items:6
+            },
+            1000:{
+                items:10
+            },
+            1100:{
+                items:12
+            }
+        }
+    })
+    </script>
+</body>
+</html>
